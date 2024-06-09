@@ -1,0 +1,22 @@
+{
+  "name": "cryptography",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cli": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
